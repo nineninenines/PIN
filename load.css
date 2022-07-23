@@ -1,0 +1,182 @@
+#title{
+    font-family:'OCR-A Regular';
+    font-size: 2em;
+    letter-spacing: 8px;
+    color:#2bff00;
+    /* margin-top: 20px; */
+}
+.move-1{
+	width:100px;
+	margin:20px;
+	height:auto;
+	animation-name: move1;
+	animation-duration: 30s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	transition: ease-in-out .5s;
+	display:inline-block;
+}
+.start{
+    top:50%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    z-index: 5;
+    text-align: center;
+    /* animation-name: startbutton;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	transition: ease-in-out .5s;
+    text-align: center; */
+
+    
+}
+.press{
+    top:60%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    z-index: 5;
+    animation-name: pressbutton;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	transition: ease-in-out .5s;
+    text-align: center;
+    font-size: 1em;
+    
+}
+
+@keyframes pressbutton{
+	0%{
+		opacity: 0;
+        /* letter-spacing: 5px; */
+	}
+	
+	50%{
+		opacity: 100;
+        /* letter-spacing: 15px; */
+		
+	}
+   
+	100%{
+		opacity: 0;
+        /* letter-spacing: 5px; */
+		
+	}
+}
+@keyframes startbutton{
+	0%{
+		opacity: 0;
+        /* letter-spacing: 5px; */
+	}
+	
+	50%{
+		opacity: 100;
+        /* letter-spacing: 15px; */
+		
+	}
+   
+	100%{
+		opacity: 0;
+        /* letter-spacing: 5px; */
+		
+	}
+}
+@keyframes move1{
+	0%{
+		opacity: 0;
+		transform:translateY(-100px);
+		
+	}
+	
+	50%{
+		opacity: 100;
+		
+	}
+	100%{
+		opacity: 0;
+		transform:translateY(600px);
+		
+		
+	}
+}
+.move-1:hover{
+	width:150px;
+	height:auto;
+	transition: ease-in-out .5s;
+}
+
+.move-2{
+	width:100px;
+	margin:20px;
+	height:auto;
+	animation-name: move2;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	transition: ease-in-out .5s;
+	display:inline-block;
+}
+.move-2:hover{
+	width:150px;
+	height:auto;
+	transition: ease-in-out .5s;
+}
+@keyframes move2{
+	0%{
+		opacity: 0;
+		transform:translateY(-100px);
+		
+	}
+	
+	50%{
+		opacity: 100;
+		
+	}
+	100%{
+		opacity: 0;
+		transform:translateY(600px);
+		
+		
+	}
+}
+.move-3{
+	width:100px;
+	margin:20px;
+	height:auto;
+	animation-name: move3;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	transition: ease-in-out .5s;
+	display:inline-block;
+}
+.move-3:hover{
+	width:150px;
+	height:auto;
+	transition: ease-in-out .5s;
+}
+@keyframes move3{
+	0%{
+		opacity: 0;
+		transform:translateY(-100px);
+		
+	}
+	
+	50%{
+		opacity: 100;
+		
+	}
+	100%{
+		opacity: 0;
+		transform:translateY(500px);
+		
+		
+	}
+}
+
+h4{
+    font-size: 2em;
+}
