@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/bank_home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+    <title>PINcode</title>
+</head>
+<body>
+    <div id="amount" class="full animate__animated animate__fadeIn">
+        <span id="action" class="bold-text animate__animated animate__fadeInDown">Deposit to</span> <span id="accType" class="bold-text animate__animated animate__fadeInUp">Checking Account</span>
+        <div id="num-mar" class="animate__animated animate__fadeInUp">
+            <marquee behavior="scroll" direction="left" scrolldelay="7"scrollamount="5"  id="sequence" style="text-align:center;">Please select an amount</marquee>
+        </div>
+        <button class="back-button return">Back</button>
+        <div id="num-pad" class="animate__animated animate__fadeInUp">
+            <button class="number animate__animated animate__fadeIn" value="20">$20</button>
+            <button class="number animate__animated animate__fadeIn" value="40">$40</button>
+            <button class="number animate__animated animate__fadeIn" value="60">$60</button>
+            <button class="number animate__animated animate__fadeIn" value="100">$100</button>
+            <button class="number animate__animated animate__fadeIn" value="200">$200</button>
+            <button class="number animate__animated animate__fadeIn" value="500">$500</button>
+            <button class="number animate__animated animate__fadeIn" id="custom">Custom Amount</button>
+            <button class="number green animate__animated animate__fadeIn" id="amount-entered">Enter</button>
+
+             
+        </div>
+        
+    </div>
+    <div id="log"></div>
+    <script src="js/jq.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/bank.js"></script>
+    <script src="js/trans.js"></script>
+
+</body>
